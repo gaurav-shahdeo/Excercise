@@ -1,3 +1,4 @@
+package tree;
 
 class Node
 {
@@ -11,7 +12,7 @@ class Node
     }
 }
 
-public class BinaryTree
+public class FindLCAinBinaryTree
 {
     Node root;
 
@@ -56,7 +57,7 @@ public class BinaryTree
     /* Driver program to test above functions */
     public static void main(String args[])
     {
-        BinaryTree tree = new BinaryTree();
+        FindLCAinBinaryTree tree = new FindLCAinBinaryTree();
         tree.root = new Node(1);
         tree.root.left = new Node(2);
         tree.root.right = new Node(3);

@@ -1,3 +1,5 @@
+package tree;
+
 import model.TreeNode;
 
 public class DistanceBetweenTwoNodesInBT {
