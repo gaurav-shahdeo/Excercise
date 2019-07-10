@@ -20,12 +20,14 @@ public class PrintVerticalTree {
 
     private static void verticalTraversal(TreeNode root, int hd, Map<Integer, List<TreeNode>> recordHD) {
         if (root != null) {
+
             List verticalNodes = recordHD.get(hd);
             if (verticalNodes == null) {
                 verticalNodes = new LinkedList<>();
             }
             verticalNodes.add(root.data);
             recordHD.put(hd, verticalNodes);
+
             verticalTraversal(root.left, hd - 1, recordHD);
             verticalTraversal(root.right, hd + 1, recordHD);
         }
