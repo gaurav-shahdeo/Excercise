@@ -26,6 +26,7 @@ public class TreeNode {
 
     public static void display(TreeNode root){
         if(root == null) return;
+        System.out.println("Level Order Traversal of Tree");
         Queue<TreeNode> q = new LinkedList<>();
         q.add(root);
         q.add(null);

@@ -1,7 +1,7 @@
 public class MergeTwoSortedArray {
 
     public static void main(String[] args) {
-        int[] arr1 = {1,3,5,7};
+        int[] arr1 = {1,3,5,7,13,14,15};
         int[] arr2 = {2,4,6,8,9,10};
         int[] mergedArray = new int[arr1.length + arr2.length];
 
